@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/secondview',[App\Http\Controllers\MyController::class,'get_secondview'])->name('get_secondview')
 
 
+
+
+
